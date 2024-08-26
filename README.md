@@ -20,22 +20,22 @@ Before you begin, ensure you have met the following requirements:
 ## Installation and Setup
 
 1. Clone the repository:
-git clone https://github.com/yourusername/ai-resume-builder.git
-cd ai-resume-builder
+git clone https://github.com/RkanGen/kai_ai.git
+cd kai_ai
 
 
 Copier
 
 2. Create a `.env` file in the root directory and add your Groq API key:
-GROQ_API_KEY=your_groq_api_key_here
+`GROQ_API_KEY=your_groq_api_key_here`
 
 
 Copier
 
 3. Build and run the Docker containers:
-docker-compose up --build
+ - `docker-compose up --build`
 
-angelscript
+
 
 Copier
 
@@ -54,17 +54,17 @@ Copier
 
 ## Project Structure
 
-resume-builder/
-├── app/
-│ ├── main.py
-│ ├── resume_generator.py
-│ └── requirements.txt
-├── frontend/
-│ ├── streamlit_app.py
-│ └── requirements.txt
-├── Dockerfile
-├── docker-compose.yml
-└── README.md
+-resume-builder/
+-├── app/
+-│ ├── main.py
+-│ ├── resume_generator.py
+-│ └── requirements.txt
+-├── frontend/
+-│ ├── streamlit_app.py
+-│ └── requirements.txt
+-├── Dockerfile
+-├── docker-compose.yml
+-└── README.md
 
 ## Technologies Used
 
@@ -79,7 +79,7 @@ Contributions to this project are welcome. Please fork the repository and submit
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License .
 
 ## Acknowledgments
 
