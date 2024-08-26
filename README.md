@@ -1,4 +1,4 @@
-# AI-Powered Resume Builder
+#  Kai_ai is AI-Powered Resume Builder
 
 This project is an AI-powered resume builder that customizes resumes based on job descriptions. It uses the Groq API to generate tailored resumes, and is built with FastAPI for the backend, Streamlit for the frontend, and Docker for containerization.
 
@@ -52,19 +52,7 @@ Copier
 
 4. Review the generated resume and make any necessary adjustments before using it.
 
-## Project Structure
 
--resume-builder/
--├── app/
--│ ├── main.py
--│ ├── resume_generator.py
--│ └── requirements.txt
--├── frontend/
--│ ├── streamlit_app.py
--│ └── requirements.txt
--├── Dockerfile
--├── docker-compose.yml
--└── README.md
 
 ## Technologies Used
 
